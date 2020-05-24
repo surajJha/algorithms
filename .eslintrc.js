@@ -30,5 +30,6 @@ module.exports = {
         "no-await-in-loop": "off",
         "guard-for-in": "off",
         "global-require": "off",
+        "no-plusplus": "off"
     }
 };
