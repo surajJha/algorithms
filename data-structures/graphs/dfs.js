@@ -54,7 +54,7 @@ function main() {
 	dfs.dfs(0);
 	console.log(dfs.visited);
 	console.log(dfs.edgeTo);
-	console.log('path to 3 ', dfs.pathTo(3));
+	console.log('path to 3 ', dfs.pathTo(3).reverse());
 }
 
 main();
